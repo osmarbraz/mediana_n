@@ -155,7 +155,7 @@ public class Principal {
         //p = 6 e r = 10 = 10 - 6 + 1 = 5 elementos
         int n = r - p + 1;
         //Calcula a posição da mediana em relação a quantidade de elementos do intervalo de p até r
-        int m =  piso(n/2);
+        int m =  piso(n / 2.0);
         selectAleatorio(A, p, r, m); //Particiona todo o vetor coloca a media na posição m        
         if (n % 2 == 1) {
             //Quantidade ímpar 
