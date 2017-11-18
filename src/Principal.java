@@ -142,6 +142,7 @@ public class Principal {
 
         //Vetor de dados
         int A[] = {99, 33, 55, 77, 11, 22, 88, 66, 44};
+        
         //Quantidade de elementos
         int r = A.length;
 
@@ -153,9 +154,8 @@ public class Principal {
 
         //Localiza a mediana
         int q = medianaN(A, 1, r);
-        
-        System.out.println("A mediana está na posição: " + q);
-        //Mostra a mediana
+                
+        System.out.println("A mediana está na posição: " + q);        
         System.out.println("O Valor é da Mediana: " + A[q - 1]);
 
         System.out.println("Vetor A após: ");
