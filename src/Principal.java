@@ -143,6 +143,8 @@ public class Principal {
      * Cálculo da Mediana com complexidade Linear. 
      * 
      * Utilizando o select aleatório com complexidade Theta(n)
+     * 
+     * Página 155 Cormen 3d
      *
      * @param A Vetor com os dados
      * @param p Início do Vetor
